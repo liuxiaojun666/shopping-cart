@@ -1,0 +1,34 @@
+.App {
+  border: 1px solid;
+  width: 500px;
+  height: auto;
+  transform: translateX(50%);
+  text-align: center;
+}
+
+.header .header-title {
+  border-bottom: 1px dashed #ccc;
+  padding-bottom: 6px;
+}
+.header .header-count {
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px dashed #ccc;
+  padding-bottom: 6px;
+}
+.content .content-box {
+  display: flex;
+  align-items: center;
+  padding-bottom: 10px;
+}
+.content .content-box .box-content {
+  width: 320px;
+  text-align: left;
+  padding-left: 20px;
+}
+.content .content-box .box-button {
+  width: 100px;
+}
+.content .content-footer {
+  padding: 10px 0;
+}
